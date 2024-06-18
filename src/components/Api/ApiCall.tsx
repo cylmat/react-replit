@@ -51,7 +51,7 @@ export default function ApiCall() { //class ApiCall extends Component {
     .then( setRes(JSON.stringify(result))  ) /*callback*
 
   }, [queryData]) //-effect*/
-console.log(queryData)
+
   return (
         <>
           <form id="api_form">

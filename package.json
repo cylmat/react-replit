@@ -24,6 +24,7 @@
     "react-dom": "^18.2.0",
     "react-query": "^3.39.3",
     "sass": "^1.70.0",
+    "serve": "^14.2.3",
     "sort-by": "^1.2.0",
     "styled-components": "^6.1.8"
   },

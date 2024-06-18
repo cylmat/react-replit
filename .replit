@@ -33,5 +33,9 @@ deploymentTarget = "static"
 publicDir = "dist"
 
 [[ports]]
+localPort = 3000
+externalPort = 3000
+
+[[ports]]
 localPort = 5173
 externalPort = 80
