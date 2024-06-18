@@ -1,9 +1,9 @@
 import { useState } from "react"; //@todo move it
-import CssSample from "../components/Css/CssSample";
-import Generic from "../components/Generic/Generic.tsx";
-import Loader from "../components/Loader/Loader.tsx";
-import Logo from "../components/Logo/Logo";
-import Tabs from "../components/Tab/Tabs";
+import CssSample from "../components/Custom/Css/CssSample";
+import Generic from "../components/Custom/Generic";
+import Loader from "../components/Custom/Loader";
+import Logo from "../components/Custom/Logo/Logo";
+import Tabs from "../components/Custom/Tab/Tabs";
 import reactLogo from "../assets/react.svg";
 import viteLogo from "/favicon.svg";
 import "./Index.css";
@@ -11,9 +11,8 @@ import "./Index.css";
 function App() {
   const [count, setCount] = useState(0);
 
-  return (
-    <>
-      <div>
+  const display_logo = () => {
+      return <div>
         <Logo
           href="https://vitejs.dev"
           src={viteLogo}
@@ -26,12 +25,19 @@ function App() {
           alt="React logo"
         />
       </div>
+  }
+
+  return (
+    <>
+      {display_logo()}
       {/*<h1>Vite + React</h1>*/}
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
       </div>
+
+      React ⚛️ + Vite ⚡ + Replit 🌀
       
       { /*Tabs*/ }
       <Tabs />
