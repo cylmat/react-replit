@@ -1,0 +1,5 @@
+Road to React
+
+## Inline handler, p106
+
+Exercice : Renders a list of items and allows users to filter the list via search feature. Should render a button next to each items allow user to remove it from the list.
