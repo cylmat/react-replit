@@ -6,7 +6,8 @@ import Logo from "../components/Custom/Logo/Logo";
 import Tabs from "../components/Custom/Tab/Tabs";
 import reactLogo from "../assets/react.svg";
 import viteLogo from "/favicon.svg";
-import "./Index.css";
+
+
 
 function App() {
   const [count, setCount] = useState(0);
