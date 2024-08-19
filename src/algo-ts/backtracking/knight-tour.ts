@@ -1,7 +1,9 @@
 namespace KnightTour {
 
-/* https://www.geeksforgeeks.org/the-knights-tour-problem
-/* https://www.geeksforgeeks.org/the-knights-tour-problem
+/*
+ * https://www.geeksforgeeks.org/the-knights-tour-problem
+ *
+ * https://www.tutorialspoint.com/data_structures_algorithms/knight_tour_problem.htm
  *
  * https://en.wikipedia.org/wiki/Knight%27s_tour
  * - from general https://en.wikipedia.org/wiki/Hamiltonian_path_problem
@@ -72,7 +74,7 @@ function doMove(board: blopType = [], x: number, y: number, num: number): boolea
 
             if (doMove(board, next_x, next_y, num+1)) {
                 log('ok for x'+next_x+',y'+next_y)
-                
+
                 return true
             } else {
                 //SOLVEnext
@@ -105,4 +107,4 @@ function solve(): void
 
 solve()
 
-}//ns
+} //ns
