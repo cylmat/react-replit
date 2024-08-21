@@ -8,4 +8,4 @@ case $ALGO in
   "dfs") ALGO="tree/$ALGO" ;;
 esac
 
-node --loader ts-node/esm src/algo-ts/${ALGO}.ts
+node --loader ts-node/esm algo-ts/${ALGO}.ts
