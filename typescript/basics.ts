@@ -1,5 +1,6 @@
 var a: number = 10;
-function printNumber(num: number) {
-  console.log(num);
+function getNumber(num: number) {
+  return num
 }
-printNumber(a);
+
+export const basics = getNumber(a)
