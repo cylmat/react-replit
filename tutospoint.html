@@ -13,13 +13,23 @@
    </head> 
    <body> 
       <div id="menu"></div>
+      <div id="title"></div>
+      <div id="babel"></div>
       <div id="react-app"></div>
       
-      <script language="JavaScript"> 
+      <script language="javascript"> 
          // @https://react.dev/reference/react/createElement
-         element = React.createElement('h1', {}, 'Hello React!') 
-         ReactDOM.render(element, document.getElementById('react-app'));
+         element = React.createElement('div', {}, 
+                React.createElement('div', {}, 'TutosPoint!')
+         ) 
+         ReactDOM.render(element, document.getElementById('title'))
       </script> 
+      <script type="text/babel"> 
+         // @babel convert JSX to javascript
+         function Greet() { return <div>Hello JSX!</div> }
+         ReactDOM.render(<Greet />, document.getElementById('babel')) 
+      </script>
+
       <script type="module" src="/src/react/tutospoint.tsx"></script>
 
    <a href="https://www.tutorialspoint.com/reactjs/reactjs_architecture.htm"><em>Tutorialspoint React</em></a>

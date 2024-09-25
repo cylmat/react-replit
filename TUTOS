@@ -1,0 +1,22 @@
+REACT
+=====
+https://www.tutorialspoint.com/reactjs
+https://www.freecodecamp.org/learn/front-end-development-libraries
+
+Best practice
+-------------
+* One of the patterns is Flux pattern. React library also provides lot of concepts like Higher Order component, Context, Render props, Refs etc.
+
+Refs:
+* https://legacy.reactjs.org/blog/2014/05/06/flux.html
+* https://fireart.studio/blog/9-react-best-practices-to-improve-your-react-code
+
+TS
+==
+https://www.tutorialspoint.com/typescript https://www.typescripttutorial.net
+https://www.typescriptlang.org/docs https://www.typescriptlang.org/tsconfig
+
+ALGO
+====
+https://www.geeksforgeeks.org/tree-data-structure
+https://www.geeksforgeeks.org/learn-data-structures-and-algorithms-dsa-tutorial
