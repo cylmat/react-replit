@@ -5,7 +5,7 @@ https://www.freecodecamp.org/learn/front-end-development-libraries
 
 TS
 ==
-https://www.tutorialspoint.com/typescript https://www.typescripttutorial.net
+https://www.tutorialspoint.com/typescript
 https://www.typescriptlang.org/docs https://www.typescriptlang.org/tsconfig
 https://www.typescripttutorial.net
 

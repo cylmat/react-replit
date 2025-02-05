@@ -7,8 +7,11 @@ import Tabs from "../components/Custom/Tab/Tabs";
 import reactLogo from "../assets/react.svg";
 import viteLogo from "/favicon.svg";
 
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 
-function App() {
+
+function Index() {
   const [count, setCount] = useState(0);
 
   const display_logo = () => {
@@ -50,4 +53,9 @@ function App() {
   );
 }
 
-export default App;
+
+ReactDOM.createRoot(document.getElementById('root')!).render(
+  <React.StrictMode>
+    <Index />
+  </React.StrictMode>
+)

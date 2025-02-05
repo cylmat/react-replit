@@ -1,5 +1,14 @@
 import { useState } from "react"; //@todo move it
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 
-export default function Tutos(): any {
+function Tutos(): any {
     return (<>tuto</>)
 }
+
+// Can't be null
+ReactDOM.createRoot(document.getElementById('react-app')!).render(
+    <React.StrictMode>
+        <Tutos />
+    </React.StrictMode>
+)
